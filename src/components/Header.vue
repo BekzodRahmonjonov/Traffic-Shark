@@ -2,7 +2,7 @@
   <header class="header">
     <div class="container">
       <div class="header-logo">
-        <router-link to="../views/Home.vue" class="link">
+        <a href="../views/Home.vue" class="link">
           <img src="../assets/logo.png" alt="Logo Image">
         </router-link>
       </div>
