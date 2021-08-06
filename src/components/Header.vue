@@ -4,7 +4,7 @@
       <div class="header-logo">
         <a href="../views/Home.vue" class="link">
           <img src="../assets/logo.png" alt="Logo Image">
-        </router-link>
+        </a>
       </div>
       <ul class="header__menu">
         <li class="list">
