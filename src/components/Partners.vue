@@ -32,12 +32,17 @@
     &__item {
       margin-top: 90px;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       img {
         justify-content: center;
         margin-top: 50px;
         margin-left: 50px;
       }
+    }
+  }
+  @media screen and (max-width:992px) {
+    .partners__item {
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
   @media screen and (max-width: 768px) {

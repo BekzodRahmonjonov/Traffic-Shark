@@ -31,7 +31,7 @@
           <img src="../assets/card-2.png" alt="">
           <p class="paragraph">Эксклюзивные предложения благодаря собственному сильному баингу</p>
         </div>
-        <div class="work__item-card">
+        <div class="work__item-card about-none">
           <img src="../assets/card-3.png" alt="">
           <p class="paragraph">Стабильные выплаты 1 раз в неделю от $100 после проверки качества</p>
         </div>

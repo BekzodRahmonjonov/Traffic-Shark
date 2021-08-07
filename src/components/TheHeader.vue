@@ -2,16 +2,16 @@
   <header class="header">
     <div class="container">
       <div class="header-logo">
-        <router-link to="/" class="link">
+        <router-link to="/about " class="link">
           <img src="../assets/logo.png" alt="Logo Image">
         </router-link>
       </div>
       <ul class="header__menu">
         <li class="list">
-          <router-link to="/" class="link cheked-home">вебмастерам</router-link>
+          <router-link to="/home" class="link">вебмастерам</router-link>
         </li>
         <li class="list">
-          <router-link to="/about" class="link cheked-about">рекламодателям</router-link>
+          <router-link to="/" class="link">рекламодателям</router-link>
         </li>
       </ul>
       <ul class="header__authorization">
@@ -64,7 +64,7 @@ export default {
         color: #565656;
         padding: 28px 0;
         &:hover, &:active {
-          border-top: 2px solid #2E9ADB;
+          border-top: 2px solid #55B570;
         }
       }
     }

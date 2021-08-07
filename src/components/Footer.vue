@@ -79,7 +79,7 @@
 }
   .footer {
     position: absolute;
-    top: -200px;
+    top: -50px;
     padding-bottom: 50px;
     &__content {
       display: flex;
@@ -130,6 +130,7 @@
   }
   @media screen and (max-width:768px) {
     .footer {
+      top: -150px;
       &__content {
         width: 330px;
         flex-direction: column;
@@ -145,6 +146,7 @@
   }
   @media screen and (max-width:576px) {
     .footer {
+      // top: 0;
       &__content {
         margin-left: 25px;
       }

@@ -20,7 +20,7 @@
     .heading {
       color: #fff;
       text-align: center;
-      margin-top: 3pc;
+      margin-top: 6pc;
       margin-bottom: 20px;
     }
     .btn {
@@ -43,7 +43,7 @@
     &__input {
       background: #FFFFFF;
       border-radius: 40px;
-      max-width: 730px;
+      width: 730px;
       padding: 30px 28px;
       border: none;
       outline: none;
@@ -84,4 +84,29 @@
       }
     }
   }
+  @media screen and (max-width: 768px) {
+    .conclusion__input {
+      width: 600px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .conclusion {
+      &__input {
+        width: 400px;
+      }
+      .btn {
+        width: 280px;
+      }
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .conclusion {
+      &__input {
+        width: 340px;
+      }
+      .btn {
+        width: 250px;
+      }
+    }
+  }  
 </style>
